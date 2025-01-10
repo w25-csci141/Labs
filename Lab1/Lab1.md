@@ -7,7 +7,7 @@ The purpose of this lab is meant to introduce you to Python and Thonny. Lecture 
 Since there’s a wide variety of backgrounds in this class, everyone will progress at different speeds through this lab - that’s ok! You should have enough time to complete this lab during the lab session. If you do not, be sure to upload your submission to Canvas by the due date. If you have questions, be sure to ask the TA. Ask questions often. Labs are your opportunity to get personalized help!
 
 # Log into the lab computers
-The CS labs have been upgraded recently! Read about your account and files storage here: [[https://support.cs.wwu.edu/home/survival_guide/day_to_day/Accounts_Passwords_and_Profile_Storage.html]] . If you have registered for the class fewer than 24 hours ago, email cs.support@wwu.edu (or visit them in CF 412) and we will get it sorted out right away. All the labs assigned for CSCI 141 boot into Linux - learning to use it is a course goal so take the time to dive in! You can find a user guide here: [[https://help.ubuntu.com/stable/ubuntu-help/]].
+The CS labs have been upgraded recently! Read about your account and files storage here: [[https://support.cs.wwu.edu/home/survival_guide/day_to_day/Accounts_Passwords_and_Profile_Storage.html]] . If you have registered for the class fewer than 24 hours ago, email cs.support@wwu.edu and we will get it sorted out right away. All the labs assigned for CSCI 141 boot into Linux - learning to use it is a course goal so take the time to dive in! You can find a user guide here: [[https://help.ubuntu.com/stable/ubuntu-help/]].
 
 # Notation
 In our class materials, we'll often give instructions about what Python code to use. This could show up 'in line' like this: `print("Hello World!")` or it may be displayed in a code block, like this: 
@@ -17,6 +17,14 @@ In our class materials, we'll often give instructions about what Python code to 
 ```
 We will also sometimes indicate where you are to fill in some information by using the angle brackets < and > - for example `print("My name is <name>") `. If you have questions about this notation ask your TA for clarification.
 
+### Backing up your files
+
+We strongly recommend you store all your files on your WWU Office 365 OneDrive in a CSCI141 folder, and share that folder with the professor and your TA. This means that even if you face a technology issue near a deadline, your files can still be retrieved. What a stress saver! The easiest way to do this is to install the OneDrive app, which will automatically keep your files synced: [[https://products.office.com/en-us/onedrive/download]] , but you can manually upload at the end of each day also using a link from office.com . Create a folder and share it now. For help with sharing, check out [[https://bit.ly/2XfCQLh]] .
+
+You should get into the habit of organizing and placing your files into folders for each lab and assignment. The first question the TA or Professor will ask when you say you forgot to upload your work, or uploaded the wrong file, or the file got corrupted is: do you have it in your OneDrive folder? If the answer is 'yes', it's a pretty easy recovery. (If not, you may be out of luck and have to take a late penalty). In general the Professor and TA won't look at your folder unless you need help retrieving a file to turn in.
+
+Of course, you could also store your files in a Github or Gitlab repository! These have a bit more of a learning curve, but are used extensively throughout the CS course sequence, so it's not a bad idea to start getting used to them. Keep your repositories private from other students, and share them to the professor or TA as needed.
+
 # Create folders.
 In addition to having office365, every student in a CS class gets account storage on our file servers, so you can access your files from any computer in the lab. Keeping your files organized is important! I recommend making a CSCI141 folder and a folder for each lab inside of that. Pay careful attention in this class to instrucions on file names, and decide on a way to back files up in case of any disaster (copy them into your office365 drive perhaps?). When you are at home you can remotely log into the lab computers using a VPN - see the instructions at [[https://support.cs.wwu.edu/home/access/quickstart.html]] .
 
@@ -24,7 +32,7 @@ In addition to having office365, every student in a CS class gets account storag
 
 We’ll use Thonny as our IDE: integrated Development Environment - a fancy way of saying a program to program in. You can download it for free from [[http://www.thonny.org]] . The lab machines all have Thonny installed already. If you want to use it on your own computer, you can download it for free from [[http://www.thonny.org]] . Once you’ve logged into a lab machine, start Thonny - you can see several ways to start applications in Ubuntu Linux on this page: [[https://help.ubuntu.com/stable/ubuntu-help/shell-apps-open.html.en]]. 
 
-If there are multiple versions of Thonny, use the most recent version that is installed. If you’ve launched Thonny correctly, a screen similar to what is shown below in Figure 1 should appear. Don’t worry if the version number after ”Python” in the Shell tab differs; as long as the major (first) version number is 3, you’re in good shape.
+If there are multiple versions of Thonny, use the most recent version that is installed. If you’ve launched Thonny correctly, a screen similar to what is shown below in Figure 1 should appear. Don’t worry if the version number after ”Python” in the Shell tab differs; as long as the major (first) version number is 3 (or later), you’re in good shape.
 
 ![The Thonny IDE with menu at the top, commonly used icons beneath it, space to type your code, and at the bottom a Shell to show the result of running your code.](Picture1.png "Figure 1")
 
