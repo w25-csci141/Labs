@@ -210,7 +210,7 @@ In this section, you'll solve the following programming problem: **The period ke
 
 Let's look at an example. Suppose you want to calculate $20.4 \times 17.7$, but can only enter $204$ and $177$. The desired result is $361.08$. If the user inputs the values 204 and 177, how can you convert them to 20.4 and 17.7? By using the modular and integer division operators! For example, 204 modulus 10 has a remainder of 4, which gives the decimal value .4, while 204 integer division 10 gives 20, which is the number before the decimal in 20.4.
 
-**The Math:** Suppose that for the input values 204 and 177 you have successfully extracted the whole and decimal values (i.e., 20, 4, 17 and 7). How can you calculate the result of 20.4 x 17.7? Multiplication of decimal values requires you to sum the following four parts:
+**The Math:** Suppose that for the input values 204 and 177 you have successfully extracted the whole and decimal values (i.e., 20, 4, 17 and 7). How can you calculate the result of 20.4 x 17.7? Note To compute 20.4 × 17.7, you can expand it as follows: 20.4 x 17.7 = (20 + 0.4)(7 + 0.7). Using the distributive property of multiplication, it equals to 20 x 17 + 20 x 0.7 + 0.4 x 7 + 0.4 x 0.7. This shows that multiplying two decimal values requires summing four components:
 
 -   The first integer times the second integer
 
@@ -231,6 +231,16 @@ $$
               &= 361.08 
 \end{align}
 $$
+\[
+\begin{align*}
+20.4 \times 17.7 &= (20 \times 17) \\
+                 &\quad + (20 \times 7 \times 0.1) \\
+                 &\quad + (4 \times 0.1 \times 17) \\
+                 &\quad + (4 \times 0.1 \times 7 \times 0.1) \\
+                 &= 340 + 14 + 6.8 + 0.28 \\
+                 &= 361.08
+\end{align*}
+\]
 
 1.  Download [broken_calculator.py](broken_calculator.py)  and save it to your Lab2 folder.
 
