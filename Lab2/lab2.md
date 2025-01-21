@@ -220,17 +220,7 @@ Let's look at an example. Suppose you want to calculate $20.4 \times 17.7$, but 
 
 -   The first decimal times the second decimal
 
-Notice that for each decimal, we also multiply in a factor of 0.1 to make sure that it is correctly weighted in the final product. In our example, the calculation looks like this: 
-$$
-\begin{align*}
-20.4 \times 17.7 &= (20 \times 17) \\
-                 &\quad + (20 \times 7 \times 0.1) \\
-                 &\quad + (4 \times 0.1 \times 17) \\
-                 &\quad + (4 \times 0.1 \times 7 \times 0.1) \\
-                 &= 340 + 14 + 6.8 + 0.28 \\
-                 &= 361.08
-\end{align*}
-$$
+Notice that for each decimal, we also multiply in a factor of 0.1 to make sure that it is correctly weighted in the final product. 
 
 1.  Download [broken_calculator.py](broken_calculator.py)  and save it to your Lab2 folder.
 
