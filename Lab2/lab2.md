@@ -1,7 +1,7 @@
 % CSCI 141 - Lab 2
+
 % Winter 2025
 
-**Note for next time: make them run on the terminal *and* in Thonny with cmd line arguments**
 
 ## Overview
 
