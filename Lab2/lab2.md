@@ -1,7 +1,6 @@
-% CSCI 141 - Lab 2
-
-% Winter 2025
-
+### CSCI 141
+## Winter 2025
+## Lab 2 
 
 ## Overview
 
