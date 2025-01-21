@@ -1,6 +1,5 @@
 % CSCI 141 - Lab 2
-% Caroline Hardin
-% Fall 2024
+% Winter 2025
 
 **Note for next time: make them run on the terminal *and* in Thonny with cmd line arguments**
 
@@ -24,7 +23,7 @@ In this lab, you will learn the very basic elements of how to interact with the 
 
 1. Begin by opening a command line window (also called a Terminal). Click on the App icon in the lower left corner and type terminal to initiate a search; click on the Terminal icon from the results to launch a new terminal window. You can also quickly open a terminal by presing Ctrl+Alt+T.
 
-2. In the terminal, you'll see a **prompt** that ends with a `$` sign. This is called the command line, or command prompt; you'll type commands here to interact with the system. Commands that you issue are interpreted by a program called a shell. The default shell, or command line language on the lab machines  is called `bash`; it is one of the many shells available in Linux.
+2. In the terminal, you'll see a **prompt** that ends with a `$` sign. This is called the command line, or command prompt; you'll type commands here to interact with the system. Commands that you issue are interpreted by a program called a shell. The default shell, or command line language on the lab machines is called `bash`; it is one of the many shells available in Linux.
 
 3. You’ll notice that the `$` is prepended with your username and an `@` followed by the name of the computer that you are logged into. For example, `lovelaceA@linux-11:~$` specifies the user `lovelaceA` logged into the `linux-11` machine.
 
@@ -73,7 +72,7 @@ In this lab, you will learn the very basic elements of how to interact with the 
 
    Save the file in your `lab2` folder. Return to the terminal, and again issue the `ls` command, and you should see the just-created file listed.
 
-10. Just as you can run a Python program using Thonny by pressing the green Run button (and in repl.it using its friendly green Run button), you can also run a program from the command line. In the terminal window (make sure you are in your `lab2` folder, which contains your Python program), run the `hello_world.py` program by invoking the python interpreter:
+10. Just as you can run a Python program using Thonny by pressing the green Run button, you can also run a program from the command line. In the terminal window (make sure you are in your `lab2` folder, which contains your Python program), run the `hello_world.py` program by invoking the python interpreter:
 
     ```
     python3 hello_world.py
@@ -99,7 +98,7 @@ We've seen how to ask the program's user to provide input using the `input` func
        user_name = sys.argv[1]
        print("Hello,", user_name)
 
-   This syntax means you want the item in index 1 on the **sys** module's list of **ARG**ument **V**alues. Notice that we had to `import` the sys module - it's not part of the default Python distribution. There are many powerful and exciting modules you can add to Python - we'll learn about more of them later in the class! Thonny comes with these extra modules bundled; if you are using a different IDE and you get an error that it cannot find Sys, you may need to use pip to install Sys or update your environment 'Path' variable. 
+   This syntax means you want the item in index 1 on the **sys** module's list of **ARG**ument **V**alues. Notice that we had to `import` the sys module - it's not part of the default Python distribution. There are many powerful and exciting modules you can add to Python - we'll learn about more of them later in the class! Thonny comes with these extra modules bundled; If you encounter an error in a different IDE stating that the **sys** module cannot be found, you may need to either install the module using pip or update your system's environment PATH variable to ensure the IDE has access to the correct Python installation.
 
 3. Remember that when running a program from the command line, we're not in Python, and here arguments are specified without parentheses or commas. To run your updated program, try the same command as before in the terminal:
 
@@ -129,7 +128,7 @@ We've seen how to ask the program's user to provide input using the `input` func
    Then run your program with something like:
 
    ```
-   python3 hello_world.py Caroline Scott
+   python3 hello_world.py Yudong Caroline
    ```
 
    Command line arguments are a little less flexible than using the `input` function because the program can't interactively ask the user for inputs. However, it can be much more convenient to take input this way, especially when you're running a program over and over again while testing it: you can simply repeat the same command without having to type the input again.
