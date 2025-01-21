@@ -260,7 +260,7 @@ Here's a sample run of the completed code:
 
 ![Correct Calculator Output](fixed_calc.png)
 
-# Submission {#submission .unnumbered}
+# Submission 
 
 Upload the following files to Canvas:
 
@@ -272,7 +272,7 @@ Upload the following files to Canvas:
 
 Double check that you've not changed the file names!
 
-# Rubric {#rubric .unnumbered}
+# Rubric 
 
 This lab is graded out of a total of 15 points:
 
