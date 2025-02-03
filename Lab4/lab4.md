@@ -1,6 +1,5 @@
 % CSCI 141 - Lab 4
-% Dr. Hardin
-% Fall 2024
+% Winter 2025
 
 ## Introduction and Setup 
 
