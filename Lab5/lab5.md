@@ -1,6 +1,6 @@
 % CSCI 141 - Lab 5
-% Caroline Hardin
-% Fall 2024
+% Yudong Liu
+% Winter 2025
 
 ## 1. Introduction
 
