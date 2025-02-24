@@ -6,6 +6,11 @@
 https://wwu.az1.qualtrics.com/jfe/form/SV_0AjA8zT4wOSZpbM
 ### Note:
 Participation in the survey is not required but is strongly recommended. You will receive 1 point for participation. 
+### A tutorial video: 
+https://www.youtube.com/watch?v=FdmpvCnFNcw
+
+### Description:
+pdf
 
 ### Introduction
 
@@ -183,8 +188,7 @@ of tasks, including but not limited to translation, summarization, question-answ
 engagement. They work by analyzing the context of the input text and generating output that is contextually
 relevant and syntactically correct.
 
-### A tutorial video: 
-https://www.youtube.com/watch?v=FdmpvCnFNcw
+
 
 # Lab 7: Using the llama test cpp.py API
 
