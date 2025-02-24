@@ -11,7 +11,7 @@ Participation in the survey is not required but is strongly recommended. You wil
 https://www.youtube.com/watch?v=FdmpvCnFNcw
 
 ### Description:
-pdf
+[pdf](https://github.com/w25-csci141/Labs/blob/main/Lab7/Lab7_8.pdf)
 
 
 
