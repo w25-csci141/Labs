@@ -1,8 +1,11 @@
-## CSCI 141 - Fall 2024
+## CSCI 141 - Winter 2025
 
-## Labs 7 and 8: ChatGPT-clone
+## Labs 7 (and Lab 8): ChatGPT-clone
 
-## Due Date: Check Canvas
+### Pre-lab survey link: 
+https://wwu.az1.qualtrics.com/jfe/form/SV_0AjA8zT4wOSZpbM
+### Note:
+Participation in the survey is not required but is strongly recommended. You will receive 1 point for participation. 
 
 ### Introduction
 
@@ -42,7 +45,6 @@ time. This task serves as an important pedagogical tool, fostering the ability t
 code, which is a crucial skill in the era of AI-assisted programming. It also allows you to demonstrate their
 understanding of Python programming beyond merely writing code, by evaluating and reflecting on code
 quality.
-
 
 ### Lab 7 Checklist
 
@@ -180,6 +182,9 @@ generate human-like text by predicting the probability of a sequence of words. L
 of tasks, including but not limited to translation, summarization, question-answering, and conversational
 engagement. They work by analyzing the context of the input text and generating output that is contextually
 relevant and syntactically correct.
+
+### A tutorial video: 
+https://www.youtube.com/watch?v=FdmpvCnFNcw
 
 # Lab 7: Using the llama test cpp.py API
 
