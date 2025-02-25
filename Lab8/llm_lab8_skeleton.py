@@ -1,7 +1,3 @@
-# Dion Udokop
-# November 4, 2024
-# Minimum implementation for llama chatbot
-
 ####################################
 #   TODO: import the actual Llama  #
 ####################################
