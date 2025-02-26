@@ -23,7 +23,7 @@ Langauge Models (LLMs) and working with third-party APIs in Python.
 This two-part lab focuses on developing a Python script that can hold dialogue with users. Your script should
 be able to take textual input from users and output the corresponding responses. You will be performing
 string manipulation with these text inputs/outputs. For the first part of this lab, you will utilize a mock API,
-which can be downloaded from the Canvas page for this assignment. This mock API serves as a stand-in for
+which can be downloaded from this repository for this assignment. This mock API serves as a stand-in for
 the llama cpp API, enabling you to test your chatbot without requiring access to the Llama model on the
 laboratory computers. In this lab, you will use the ’llamatestcpp’ mock API to parse strings and produce a
 response. Note that with the test API, the responses will be consistent each time. There is no need to modify
