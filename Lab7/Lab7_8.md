@@ -391,10 +391,12 @@ and ensure that the bot’s responses adhere to ethics and social norms. You sho
 outside source like the ACM code of ethics while writing your system message. We will ask you to report
 your system message in your reflective quiz.
 Some things to consider for your system message from the ACM code of ethics:
+```
 1.Contribute to Society and Human Well-being: This principle emphasizes the responsibility
 of computing professionals to use their skills for societal benefit, including promoting human rights,
 minimizing negative impacts of computing, and contributing to environmental sustainability.
 
+```
 ```
 2.Avoid Harm: This idea involves preventing negative consequences associated with computing, such
 as physical, mental, or environmental harm. Professionals are expected to mitigate unintended harm
@@ -405,12 +407,13 @@ and ensure that any intentional harm is ethically justified.
 transparent about system capabilities and limitations, avoid misleading claims, and be forthright about
 conflicts of interest.
 ```
+```
 4.Be Fair and Take Action Not to Discriminate: This principle underscores the importance of
 fairness, equality, tolerance, and justice in computing. It involves ensuring equitable participation and
 avoiding discriminatory practices or technologies that disenfranchise or oppress people.
 Please write your own system message in a way that feels appropriate to you. Think about
 the kind of guidance that your model might need to produce safe outputs.
-
+```
 # Lab 8: Incorporating the actual Llama API
 
 In lab 8, you switch from the provided test API to the real API called ‘llamacpp‘ that interacts directly with
