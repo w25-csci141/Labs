@@ -132,16 +132,16 @@ This is an example interaction with the Test API, where the user inquires about 
 demonstrates how the chatbot responses are hardcoded.
 
 Welcome to the Test chat bot! Start conversing or quit by typing "quit".
->>> What do you know about the Moon landing?
+##### >>> What do you know about the Moon landing?
 Llama: I have no information about that topic.
 
->>> How many Apollo missions landed on the Moon?
+##### >>> How many Apollo missions landed on the Moon?
 Llama: I really know nothing.
 
->>> Can you tell me more about the Apollo 11 mission?
+##### >>> Can you tell me more about the Apollo 11 mission?
 Llama: Seriously.
 
->>> quit
+##### >>> quit
 Have a nice day!
 
 ### Example Output Llama API
@@ -151,27 +151,27 @@ This demonstrates how the chatbot should maintain the context of the conversatio
 informative responses.
 
 Welcome to the Llama chat bot! Start conversing or quit by typing "quit".
->>> What do you know about the Moon landing?
+##### >>> What do you know about the Moon landing?
 Llama: The Moon landing refers to the event on July 20, 1969, when Apollo 11’s
 lunar module, Eagle, landed on the Moon. This was a historic moment as Neil
 Armstrong and Buzz Aldrin became the first and second humans to walk on the Moon.
 
->>> Who was the first person to set foot on the Moon?
+##### >>> Who was the first person to set foot on the Moon?
 Llama: Neil Armstrong was the first person to set foot on the Moon. He is famously
 known for his words, "That’s one small step for man, one giant leap for mankind,"
 as he stepped onto the lunar surface.
 
->>> How many Apollo missions landed on the Moon?
+##### >>> How many Apollo missions landed on the Moon?
 Llama: There were six Apollo missions that landed on the Moon, specifically Apollo
 11, 12, 14, 15, 16, and 17, spanning from 1969 to 1972.
 
->>> Can you tell me more about the Apollo 11 mission?
+##### >>> Can you tell me more about the Apollo 11 mission?
 Llama: Certainly! Apollo 11 was the first manned mission to land on the Moon. It
 was launched by a Saturn V rocket from Kennedy Space Center on July 16, 1969.
 Along with Neil Armstrong and Buzz Aldrin, Michael Collins was also part of the
 crew, piloting the command module Columbia in lunar orbit.
 
->>> quit
+##### >>> quit
 Have a nice day!
 
 This example output should give you an idea of how to structure the conversation and the level of detail
@@ -456,8 +456,7 @@ You can initialize the Llama model using the ‘Llama‘ class. You will need to
 model file.
 
 ```
-llm = Llama(model_path="/local/llama -2-7b-chat.ggmlv3.q4_K_M.bin", verbose=False , n_ctx=
-, n_threads=4)
+llm = Llama(model_path="/local/llama -2-7b-chat.ggmlv3.q4_K_M.bin", verbose=False , n_ctx=2048, n_threads=4)
 ```
 Parameters:
 
